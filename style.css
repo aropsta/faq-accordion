@@ -49,6 +49,7 @@ h1 {
   width: 920px;
   height: 510px;
   padding: 0 1.5rem;
+  position: relative;
 
   display: flex;
   justify-content: center;
@@ -93,7 +94,7 @@ img {
   background-repeat: no-repeat;
   background-clip: border-box;
 }
-.container::before,
+
 .container::after {
   position: absolute;
   background-size: contain;
@@ -114,8 +115,8 @@ img {
 
 .container::after {
   background-image: url(./images/illustration-box-desktop.svg);
-  transform: scale(0.22);
-  left: -30rem;
+  transform: scale(0.4);
+  left: -32rem;
   top: 3rem;
 }
 
