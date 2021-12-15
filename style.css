@@ -95,7 +95,7 @@ img {
 }
 
 .illustration::before {
-  background-image: url(/images/bg-pattern-desktop.svg);
+  background-image: url(./images/bg-pattern-desktop.svg);
   transform: scale(2);
   left: -53%;
   top: 10%;
@@ -103,7 +103,7 @@ img {
 }
 
 .illustration::after {
-  background-image: url(/images/illustration-box-desktop.svg);
+  background-image: url(./images/illustration-box-desktop.svg);
   transform: scale(0.5);
   left: -50%;
   overflow: visible !important;
