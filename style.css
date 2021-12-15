@@ -80,11 +80,21 @@ img {
   max-width: 100%;
   position: absolute;
   transform: scale(1.15);
-  left: -10%;
+  left: -13%;
 }
 
 .illustration::before,
 .illustration::after {
+  position: absolute;
+  background-size: contain;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+.container::before,
+.container::after {
   position: absolute;
   background-size: contain;
   content: "";
@@ -102,11 +112,11 @@ img {
   overflow: visible !important;
 }
 
-.illustration::after {
+.container::after {
   background-image: url(./images/illustration-box-desktop.svg);
-  transform: scale(0.5);
-  left: -50%;
-  overflow: visible !important;
+  transform: scale(0.22);
+  left: -30rem;
+  top: 3rem;
 }
 
 .accordion-item:target .answer {
