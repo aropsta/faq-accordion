@@ -157,9 +157,6 @@ img {
   color: var(--soft-red);
 }
 
-.accordion-link > .icon-up {
-  display: none;
-}
 
 .answer {
   color: var(--vd-grayblue);
